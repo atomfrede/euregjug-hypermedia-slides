@@ -1,0 +1,169 @@
+= Bring back the joy in web development with HTMX and Hypermedia
+// :revealjs_theme: white
+:revealjs_customtheme: css/shades-of-grey.css
+:revealjs_controls: true
+:revealjs_progress: false
+:revealjs_slideNumber: false
+:revealjs_history: true
+:revealjs_center: true
+:revealjs_transition: fade
+:revealjs_controls: true
+:source-highlighter: highlight.js
+:highlightjs-theme: highlight/styles/intellij-light.css
+:revealjs_totalTime: 3000
+:highlightjsdir: highlight
+:icons: font
+:imagesdir: images/
+:customcss: css/custom.css
+:docinfo: private
+
+:conf-name: #euregjug
+:conf-url: https://www.euregjug.dev
+:conf-alt: EuregJUG
+:conf-logo: images/euregjug.png
+:host-logo-style: background-color: transparent; border-color: transparent !important;
+:talk-tag: #htmx #hypermedia
+:mastodon-handle: @atomfrede@mastodon.social
+include::_shared/_title_footer.adoc[]
+
+
+[.columns]
+== About Me
+
+[.column.is-two-thirds]
+* 👨‍👩‍👧‍👦 🏊‍♂️ 🚴 🏃
+* Software Architect https://www.adesso.de/de/[@adesso SE]
+* https://jug-pb.gitlab.io/[JUG Paderborn] Co-Organizer
+* https://www.jhipster.tech/[JHipster] Board Member
+
+[.column]
+image:duke-pb.png[width=200]
+image:jhipster.png[width=200]
+
+[.notes]
+--
+* wonderful family
+* letztes mal war es der erste Triathlon, dieses mal das 3. Tradition
+--
+
+== Paderborn
+
+* Geschichte
+* sportlich
+* Promis
+* kulinarisch
+
+[.notes]
+--
+* reich an Gechichte...
+--
+
+[.transparent-slide]
+[%notitle]
+=== Geschichte
+
+image::dom.jpg[background, size=cover]
+
+[.text-center]
+--
+[%step]
+😔
+--
+
+[.notes]
+--
+* aber wir sind Sportstadt, weit hinausstrahlt...
+--
+
+
+[.transparent-slide]
+[%notitle]
+=== Sportlich
+
+image::pyro.jpg[background, size=cover]
+
+[.text-center]
+--
+[%step]
+😔
+--
+
+[.notes]
+--
+* okay, aber promis, viele tolle Menschen kommen aus Padeborn
+--
+
+[.transparent-slide]
+[%notitle]
+=== Promis
+
+image::linnemann.jpg[background, size=cover]
+
+[.text-center]
+--
+[%step]
+😔
+--
+
+[.notes]
+--
+* okay, aber kulinarisch sind wir eine Hochburg 
+--
+
+[.transparent-slide]
+[%notitle]
+=== Kulinarisch
+
+image::paderborner-pils.jpg[background, size=cover]
+
+[.text-center]
+--
+[%step]
+😔
+--
+
+=== Paderborn
+
+...😔
+
+[.notes]
+--
+* okay, lassen wir das mit Paderborn
+--
+
+== Agenda
+
+1. Modern Frontend Development
+2. Hypermedia
+3. HTMX, JTE
+4. HTMX Patterns
+5. Conclusion
+
+[.notes]
+--
+* Modern frontend development & complexity
+* What is hypermedia & hypermedia controls
+* Why JTE, What is HTMX?
+* Typical patterns involved in typical web applications
+* Conclusion
+--
+
+include::01-intro.adoc[]
+include::02-hypermedia.adoc[]
+include::03-htmx.adoc[]
+include::04-patterns.adoc[]
+include::05-conclusion.adoc[]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
